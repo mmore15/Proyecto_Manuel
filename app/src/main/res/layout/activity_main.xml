@@ -8,6 +8,16 @@
     android:layout_height="match_parent"
     android:background="#56f576" >
 
+    <TextView
+        android:text="@string/hello_world"
+        android:textSize="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp"
+        android:textColor="#2a2af5" />
+
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_facebook"
         android:layout_width="wrap_content"
